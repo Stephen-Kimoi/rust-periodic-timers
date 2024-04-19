@@ -3,16 +3,8 @@
     "rust_periodic_timers_backend": {
       "candid": "src/rust_periodic_timers_backend/rust_periodic_timers_backend.did",
       "package": "rust_periodic_timers_backend",
-      "type": "rust"
-    },
-    "rust_periodic_timers_frontend": {
-      "dependencies": [
-        "rust_periodic_timers_backend"
-      ],
-      "source": [
-        "src/rust_periodic_timers_frontend/assets"
-      ],
-      "type": "assets"
+      "type": "rust",
+      "init_arg": "1"
     }
   },
   "defaults": {
