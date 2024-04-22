@@ -20,3 +20,6 @@ fn init(timer_interval_secs: u64) {
 fn post_upgrade(timer_interval_secs: u64) {
     init(timer_interval_secs)
 }
+
+// Export Candid interface
+ic_cdk::export_candid!();
